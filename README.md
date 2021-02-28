@@ -1,9 +1,10 @@
 # river-semantic-segmentation-tf
 
-## Informacje ogólne:
+## Informacje ogólne
 
 Repozytorium zawiera program pozwalający na trening modelów opartych na konwolucyjnych sieciach neuronowych służacych do segmentacji obszarów rzecznych na zdjęciach satelitarnych skomponowanych z pasm widzialnych RGB.
 
+## Rezultaty
 
 lp. | Model | Accuracy | IoU 
 --- | --- | --- | ---
@@ -19,13 +20,13 @@ lp. | Model | Accuracy | IoU
 ![results.png](https://i.postimg.cc/y890Vgkn/results.png)
 
 
-## Użyte narzędzia:
+## Użyte narzędzia
 - TensorFlow - framework ML
 - OpenCV - biblioteka do przetwarzania obrazów
 - NumPy - biblioteka do operacji na macierzach
 - neptune - narzędzie logujące
 
-## Uruchomienie:
+## Uruchomienie
 
 1. Dataset do pobrania z oddzielnego repozytorium: https://github.com/shocik/sentinel-river-segmentation-dataset
 2. Trenowanie odbywa się w pliku train_predict.ipynb. Należy w nim zmodyfikować:
