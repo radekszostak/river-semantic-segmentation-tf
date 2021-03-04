@@ -34,12 +34,12 @@ Dataset do pobrania z oddzielnego repozytorium: https://github.com/shocik/sentin
 Uruchomienie kodu na własnym komputerze wymaga wykonania następujących kroków przygotowujących:
 
 1. Wprowadzenie danych neptune w pliku [config.cfg](config.cfg).
-2. Modyfikacja ścieżki do folderu roboczego w pliku [train-predict.ipynb](train-predict.ipynb):
+2. Modyfikacja ścieżki do folderu roboczego w pliku [train_predict.ipynb](train_predict.ipynb):
 	```python
 	#set workdir
 	os.chdir("/content/drive/MyDrive/RiverSemanticSegmentation/")
 	```
-3. Modyfikacja ścieżki do zbioru danych w pliku [train.ipynb](train.ipynb):
+3. Modyfikacja ścieżki do zbioru danych w pliku [train_predict.ipynb](train_predict.ipynb):
 	```python
 	#dataset configuration
 	dataset_dir = os.path.normpath("/content/drive/MyDrive/SemanticSegmentationV2/dataset/")
