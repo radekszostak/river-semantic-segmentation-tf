@@ -26,16 +26,20 @@ lp. | Model | Accuracy | IoU
 - NumPy - biblioteka do operacji na macierzach
 - neptune - narzędzie logujące
 
-## Uruchomienie
+## Dataset
 
-1. Dataset do pobrania z oddzielnego repozytorium: https://github.com/shocik/sentinel-river-segmentation-dataset
-2. Trenowanie odbywa się w pliku train_predict.ipynb. Należy w nim zmodyfikować:
-	- ścieżkę do workdir:
+Dataset do pobrania z oddzielnego repozytorium: https://github.com/shocik/sentinel-river-segmentation-dataset
+
+## Uruchomienie
+Uruchomienie kodu na własnym komputerze wymaga wykonania następujących kroków przygotowujących:
+
+1. Wprowadzenie danych neptune w pliku [config.cfg](config.cfg).
+2. Modyfikacja ścieżki do folderu roboczego w pliku [train-predict.ipynb](train-predict.ipynb):
 	```python
 	#set workdir
 	os.chdir("/content/drive/MyDrive/RiverSemanticSegmentation/")
 	```
-	- ścieżkę do datasetu
+3. Modyfikacja ścieżki do zbioru danych w pliku [train.ipynb](train.ipynb):
 	```python
 	#dataset configuration
 	dataset_dir = os.path.normpath("/content/drive/MyDrive/SemanticSegmentationV2/dataset/")
