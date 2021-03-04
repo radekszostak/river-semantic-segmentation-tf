@@ -6,6 +6,7 @@ Repozytorium zawiera program pozwalający na trening modelów opartych na konwol
 
 ## Rezultaty
 
+
 lp. | Model | Accuracy | IoU 
 --- | --- | --- | ---
 1 | Wejście | - | -
@@ -17,6 +18,7 @@ lp. | Model | Accuracy | IoU
 7 | UNET | 0.980608 | 0.801781 
 8 | SEGNET | 0.977276 | 0.775857 
 
+Numeracja wierszy w poniższej tabeli odpowiada oznaczeniom na obrazie:
 ![results.png](https://i.postimg.cc/y890Vgkn/results.png)
 
 
